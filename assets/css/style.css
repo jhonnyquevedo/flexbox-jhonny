@@ -25,7 +25,7 @@ main {
 
 .contactos{
     padding: 30px;
-    width: 270px;
+    width: 300px;
 }
 
 .contactos .contacto{
@@ -44,4 +44,25 @@ main {
    padding: 10px;
 }
 
-.nuevo chat
+.nuevo-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.nuevo-chat button {
+    height: 40px;
+    background-color: #A491D2;
+    color: white;
+    border: none;
+    width: 150px;
+}
+
+.nuevo-chat button:hover{
+    background-color: #CDC3E6;
+}
+
+.nuevo-chat button:focus{
+    background-color: #F7BFB6;
+}
