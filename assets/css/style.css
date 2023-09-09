@@ -16,32 +16,42 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #d4dcff;
+    background-color: #E8EBE4;
 }
 
 .principal img{
     width: 250px;
 }
 
+.principal h2{
+    padding-top: 10px;
+}
+
 .contactos{
-    padding: 30px;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%
 }
 
 .contactos .contacto{
     display: flex;
     min-height: 70px;
-    border-color: black;
     border-top: solid 1px;
+    border-color: #BEC1BB;
+    border-right: solid 1px;
+    border-color: #BEC1BB;
+    padding: 10px;
+    align-items: center;
 }
 
 .contactos .contacto img{
     width: 60px;
     border-radius: 30px;
+    margin: 7px;
 }
 
 .contactos .contacto .info{
-   padding: 10px;
+   margin: 7px;
 }
 
 .nuevo-chat{
@@ -49,11 +59,15 @@ main {
     justify-content: center;
     align-items: center;
     height: 100px;
+    border-top: solid 1px;
+    border-color: #BEC1BB;
+    border-right: solid 1px;
+    border-color: #BEC1BB;
 }
 
 .nuevo-chat button {
     height: 40px;
-    background-color: #A491D2;
+    background-color: #a491d2;
     color: white;
     border: none;
     width: 150px;
@@ -64,5 +78,35 @@ main {
 }
 
 .nuevo-chat button:focus{
-    background-color: #F7BFB6;
+    background-color: #bec1bb;
 }
+
+.contactos nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: solid 1px;
+    border-color: #BEC1BB;
+}
+
+.contactos nav img{
+    width: 40px;
+    border-radius: 30px;
+    margin: 7px;
+}
+
+.contactos .perfil{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.contactos nav .items i{
+    padding: 5px;
+}
+
+.contactos nav .info p{
+    color: #bec1bb;
+}
+
